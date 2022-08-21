@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'QB aiTaxi'
+description 'AI Taxi for QB-Core'
 
 version '1.0.0'
 

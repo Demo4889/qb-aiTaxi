@@ -1,39 +1,24 @@
-RP-Taxijob is really hard.
-If everyone has cars this job is really hard.
-
-Thats why decided to eliminate this job on our RP-Server.
-
-But what if you need a taxi and no one can do this job anymore?
-RIGHT... lets call a NPC-Taxi.
+Eliminate your taxi job and have NPC's run the business.
 
 Features:
-- With gcphone you can call a NPC-Taxi
-- Ped will spawn at DowntownCab in LS
-- Taxi will spawn at DowntownCab in LS
-(you can change the models and the speed in the config.lua)
-- You can follow the  Taxi on minimap or fullscreenmap in the menu (there is a moving blip)
-- if the taxi is arrived you have to enter and set a waypoint to the destination
-- taxi will despawn after 15 seconds after reaching the destination
-- you can change the drivemode in config
-(use this site to create a drivingmode: https://vespura.com/drivingstyle/)
-(thx @Vespura for this greate site :heavy_heart_exclamation:)
+- Call a taxi from your phone
+- Taxi will spawn at the nearest location to the player (set in the config)
+- A Blip of the taxi will be displayed on your minimap
+- Once the taxi arrives, you set your waypoint on the map
+- Once you reach your destination, the taxi will drive away and despawn.
 
-UPDATE 14.05.2019
-- there are multiple spawnpoints of the vehicle
-- it will looking for the best spawn (the nearest)
-- first option in GCPHONE is to call the taxi
-(you can not call a taxi twice)
-- second option is to cancel the order
+Config Options:
+- Taxi Driver Model
+- Taxi Vehicle Model
+- Taxi Enter Key
+- Taxi Price for Ride
+- Taxi Speed
+- Taxi Drive Mode (https://gtaforums.com/topic/822314-guide-driving-styles/)
+- Various locations to spawn Taxi at
+- Set your own local language
 
-
-here are two vids (one with AI-Traffic and one without)
-
-https://plays.tv/video/5cd94b7883d9ca60be/aitaxi-without-traffic
-
-https://plays.tv/video/5cd94c1f9f000a9f19/aitaxi-with-traffic
-
-TO GET IT WORK WITH YOUR GCPHONE YOU HAVE TO EDIT:
-**esx_addons_gcphone**
+Update your qb_phone to call an AI Taxi:
+**qb_phone/**
 *server.lua*
 
 find:
