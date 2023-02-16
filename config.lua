@@ -5,14 +5,15 @@ Config = {
 	VehicleEnterKey = 38,
 	Price = 200,
 
-	Speed = 20,
+	Speed = 20.0, -- Needs to be a float (20.0 and not 20)
 	DriveMode = 786603,
+	StopDistance = 20.0, -- Needs to be a float (20.0 and not 20)
 
 	SpawnBase = vector3(911.24, -177.84, 74.29),
 	SpawnPoints = {
-		DownTownCab = {x = 911.24, y = -177.84, z = 74.29, h = 240.32},
+		DownTownCab = {x = 911.24, y = -177.84, z = 74.29, h = 236.41},
 		AirPort = {x = -731.76, y = -2575.79, z = 13.83, h = 332.92},
-		Ulsa = {x = -1612.60, y = 174.93, z = 59.80, h = 204.96},
+		Ulsa = {x = -1612.60, y = 174.93, z = 59.80, h = 204.92},
 		SandyShores = {x = 1771.84, y = 3660.44, z = 34.37, h = 30.81},
 		SandyShores2 = {x = 2382.81, y = 5163.99, z = 49.12, h = 222.47},
 		PaletoBay = {x = -125.29, y = 6287.95, z = 31.38, h = 313.97},
@@ -28,5 +29,6 @@ Config = {
 		taxiarrived = "Your taxi has arrived",
 		canceltaxi = "Your taxi was canceled",
 		cantcancel = "You can no longer cancel your taxi",
+		calledTaxi = "You called a taxi"
 	}
 }
